@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transition</title>
+    <style>
+        .transition {
+            width: 100px;
+            height: 20px;
+            background-color: yellow;
+
+            -webkit-transition: width 1s linear;
+            -moz-transition: width 1s linear;
+            -ms-transition: width 1s linear;
+            -o-transition: width 1s linear;
+            transition: width 1s linear;
+        }
+
+        .transition:hover {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="transition"></div>
+</body>
+</html>
+
+transition-property  过渡的 CSS 属性的名称。
+transition-duration  过渡所用的时间
+transition-timing-function  过渡效果时间曲线
+transition-delay  过渡延时
